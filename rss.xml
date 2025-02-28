@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>NEWS WEEK - Игровые новости</title>
+  <link>https://newsweek.com</link>
+  <description>Новости из мира игровой индустрии</description>
+  <language>ru</language>
+  
+  <item>
+    <title>Трассировка лучей и поддержка DualSense — детали PC-версии Marvel's Spider-Man</title>
+    <link>https://newsweek.com/index-news.html#n37</link>
+    <description>Детали и системные требования PC-версии Marvel's Spider-Man</description>
+    <pubDate>Thu, 20 Jul 2025 12:00:00 GMT</pubDate>
+  </item>
+  
+  <item>
+    <title>The Last Case of Benedict Fox</title>
+    <link>https://newsweek.com/index-news.html#n36</link>
+    <description>Геймплей метроидвания про детектива с напарником демоном</description>
+    <pubDate>Wed, 26 Jun 2025 12:00:00 GMT</pubDate>
+  </item>
+  
+  <!-- Добавьте остальные новости аналогично -->
+  
+</channel>
+</rss> 

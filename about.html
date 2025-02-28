@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас - NEWS WEEK</title>
+    <link rel="stylesheet" type="text/css" href="styles/base/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/general/imports.css">
+    <link rel="stylesheet" type="text/css" href="styles/general/header-styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/general/footer-styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/general/hamburger-menu.css">
+    <link rel="stylesheet" type="text/css" href="styles/general/swap-to-top.css">
+    <link rel="shortcut icon" href="ico/gamepad.ico" type="image/x-icon">
+    <style>
+        .about-content {
+            color: white;
+            font-family: 'Ubuntu', sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        
+        .about-section {
+            background: rgba(30, 29, 31, 0.5);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(16, 155, 194, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .about-section:hover {
+            transform: translateY(-5px);
+            border-color: rgba(16, 155, 194, 0.3);
+            box-shadow: 0 5px 15px rgba(16, 155, 194, 0.1);
+        }
+        
+        .about-section h2 {
+            color: #2AF49C;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .about-section p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .about-content {
+                margin: 30px auto;
+            }
+            
+            .about-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#top">
+        <div class="arrow__box">
+            <div class="arrow"></div>
+        </div>
+    </a>
+    <div class="content" id="top">
+        <header>
+            <a href="index.html"><h1 class="logo">NEWS WEEK</h1></a>
+            <nav>
+                <ul class="ul__nav">
+                    <a href="index.html"><li class="li__nav">Главная</li></a>
+                    <a href="https://t.me/xenobu"><li class="li__nav">Связь</li></a>
+                    <a href="https://t.me/xenobu"><li class="li__nav">Предложения</li></a>
+                    <a href="https://t.me/xenobu"><li class="li__nav">Сотрудничество</li></a>
+                    <a href="./about.html"><li class="li__nav">О нас</li></a>
+                </ul>
+            </nav>
+            <div class="hide__hamburger">
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>  
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="index.html">Главная</a></li>
+                        <li><a class="menu__item" href="https://t.me/xenobu">Связь</a></li>
+                        <li><a class="menu__item" href="https://t.me/xenobu">Предложения</a></li>
+                        <li><a class="menu__item" href="https://t.me/xenobu">Сотрудничество</a></li>
+                        <li><a class="menu__item" href="./about.html">О нас</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        
+        <div class="about-content">
+            <div class="about-section">
+                <h2>О NEWS WEEK</h2>
+                <p>NEWS WEEK - это современный новостной портал, специализирующийся на освещении событий в мире игровой индустрии. Мы стремимся предоставлять нашим читателям самую актуальную и достоверную информацию о новинках игрового мира, технологических достижениях и важных событиях индустрии.</p>
+                <p>Наша миссия - быть надежным источником информации для геймеров и всех, кто интересуется игровой индустрией. Мы освещаем новости, анализируем тренды и делимся экспертными мнениями о самых важных событиях в мире игр.</p>
+            </div>
+            
+            <div class="about-section">
+                <h2>Наши принципы</h2>
+                <p>• Оперативность - мы следим за новостями 24/7 и публикуем информацию максимально быстро</p>
+                <p>• Достоверность - мы тщательно проверяем все источники информации</p>
+                <p>• Объективность - мы представляем разные точки зрения и избегаем предвзятости</p>
+                <p>• Качество - наши материалы проходят тщательную проверку перед публикацией</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; NEWS WEEK 2025</p>
+    </footer>
+    <script src="scripts/main.js" defer></script>
+</body>
+</html> 
